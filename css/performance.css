@@ -1,0 +1,176 @@
+/* nav下拉部分 */
+.nav p{
+	float:left;
+	position:absolute;
+	background:#25A03C;
+	line-height:30px;
+	padding:0 10px;
+	text-align: center;
+	margin-left: 20px;
+	display:none;
+}
+.nav p a{
+	display:block;
+	width:76px;
+	height:30px;
+	text-align: center;
+	float:left;
+	color:#fff;
+	font-family:"微软雅黑";
+	font-size:12px;
+}
+.one{
+	left:130px;
+}
+.two{
+	right:13px;
+}
+.nav p span{
+	float:left;
+	display:block;
+}
+/*------------------------------banner部分----------------------*/
+.banner{
+	width:100%;
+	height:198px;
+	margin:0 auto;
+	padding-top:12px;
+}
+.banner img{
+	width:994px;
+	height:192px;
+	margin:0 auto;
+}	
+/*------------------------------main部分----------------------*/
+.main{
+	width:100%;
+	background:url(../images/bg.png) repeat-x;
+	border-bottom:1px solid #024114;
+	padding:8px 0 5px;
+	overflow: hidden;
+}
+.main-bd{
+	width:1024px;
+	background:#fff;
+	margin:0 auto;	
+}
+.main-bd-l{
+	float:left;
+	margin-left:18px;	
+}
+.application{
+	background:url(../images/y1_07.jpg) left top;
+	width:214px;
+	height:220px;
+}
+.application ul{
+	padding-top:57px;
+	padding-left:10px;
+}
+.application a{
+	background:url(../images/about-bg.png) no-repeat 17px center;
+	padding-left:27px;
+	width:164px;
+	height:31px;
+	line-height:31px;
+	color:#000000;
+	font-family:"微软雅黑";
+	cursor:pointer;
+	display:block;
+}
+.application a:hover{
+	background:url(../images/tnav_cur.jpg) no-repeat left center;
+	color:#fff;	
+}
+a.current{
+	background:url(../images/tnav_cur.jpg) no-repeat left center;
+	color:#fff;			
+}
+.content{
+	background:url(../images/lxwm_bg.jpg) no-repeat left top;
+	width:213px;
+	height:257px;	
+}
+.content-in{
+	padding:61px 15px 0 15px;
+}
+.content .ads{
+	margin-bottom:25px;
+	padding-top:7px;	
+}
+.content p{
+	color:#000;
+	height:25px;
+	line-height:25px;
+		
+}
+.main-bd-r{
+	width:758px;
+	float:right;
+	border:1px solid #D0CFCF;
+	background:url(../images/locat_bg.jpg) no-repeat left top;
+	margin-right:18px;
+	background-color:#fff;	
+	margin-bottom:30px;
+}
+.main-bd-r .hd{
+	width:760px;
+	height:35px;
+}
+.hd-l{
+	width:242px;
+	height:26px;
+	float:left;
+	margin-left:21px;
+	background:url(../images/performance.png) no-repeat left center;
+	margin-top:12px;
+}
+.hd-r{
+	float:right;
+	line-height:47px;
+	position:relative;
+	color:#fff;
+	padding-right:20px;	
+}
+.hd-r i{
+	width:0;
+	height:0;
+	border-style:dashed dashed dashed solid;
+	border-width:4px;
+	border-color:transparent transparent transparent #FFD800;
+	position:absolute;
+	top:50%;
+	margin-top:-4px;
+	margin-left:-10px;	
+}
+.hd-r s{
+	background:url(../images/cmp.png) no-repeat center center;
+	width:7px;
+	height:5px;
+	display:inline-block;
+	margin:0 5px;
+}
+.hd-r a{
+	color:#fff;
+}
+.hd-r span{
+	color:#FFEC00;	
+}
+.target-bd{
+	padding:54px 10px 0 10px;
+}
+.target-bd img{
+	width:735px;
+	height:534px;
+}
+.icon{
+	float:right;
+	display:block;
+	margin-left:400px;
+	margin-right:37px;
+	margin-top:20px;
+	margin-bottom:20px;	
+}
+.icon a{
+	float:left;	
+}
